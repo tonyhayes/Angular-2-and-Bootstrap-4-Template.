@@ -30,14 +30,12 @@ import { ContextualTable } from './components/basicTables/components/contextualT
 		routing,
 		FormsModule,
 		HttpModule,
-		Ng2SmartTableModule,
 		AgGridModule.withComponents([EditorComponent, MoodRendererComponent, MoodEditorComponent]),
 
   	],
   	declarations: [
 		Tables,
 		BasicTables,
-		SmartTables,
 		HoverTable,
 		BorderedTable,
 		CondensedTable,
@@ -52,7 +50,6 @@ import { ContextualTable } from './components/basicTables/components/contextualT
   	],
   	providers: [
 		BasicTablesService,
-		SmartTablesService,
   	]
 })
 export default class TablesModule {}
